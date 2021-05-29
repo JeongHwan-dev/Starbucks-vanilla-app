@@ -76,11 +76,11 @@ img {
 /* HEADER */
 header {
   width: 100%;
-  background-color: #f6f5f0;
-  border-bottom: 1px solid #c8c8c8;
   position: fixed;
   top: 0;
   z-index: 9;
+  background-color: #f6f5f0;
+  border-bottom: 1px solid #c8c8c8;
 }
 header > .inner {
   height: 120px;
@@ -107,7 +107,7 @@ header .sub-menu ul.menu li {
   position: relative;
 }
 header .sub-menu ul.menu li::before {
-  display: block;
+  content: "";
   width: 1px;
   height: 12px;
   background-color: #e5e5e5;
@@ -120,17 +120,17 @@ header .sub-menu ul.menu li:first-child::before {
   display: none;
 }
 header .sub-menu ul.menu li a {
-  font-size: 13px;
   padding: 11px 16px;
   display: block;
+  font-size: 13px;
   color: #656565;
 }
 header .sub-menu ul.menu li a:hover {
   color: #000;
 }
 header .sub-menu .search {
-  height: 34px;
   position: relative;
+  height: 34px;
 }
 header .sub-menu .search input {
   width: 36px;
@@ -197,7 +197,7 @@ header .main-menu .item .item__contents .contents__menu > ul {
 header .main-menu .item .item__contents .contents__menu > ul > li {
   width: 220px;
 }
-header .main-menu .item .item__contents .contents__menu > ul > li > h4 {
+header .main-menu .item .item__contents .contents__menu > ul > li h4 {
   padding: 3px 0 12px 0;
   font-size: 14px;
   color: #fff;
@@ -218,11 +218,24 @@ header .main-menu .item .item__contents .contents__texture {
 }
 header .main-menu .item .item__contents .contents__texture h4 {
   color: #999;
-  font-weight: 700;
+  font-weight: 900;
 }
 header .main-menu .item .item__contents .contents__texture p {
-  color: #669900;
+  color: #64a70b;
   margin: 4px 0 14px;
+}
+/*BADGES*/
+header .badges {
+  position: absolute;
+  top: 132px;
+  right: 12px;
+}
+header .badges .badge {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 /* BADGES */
@@ -241,7 +254,7 @@ header .badges .badge {
 
 /* VISUAL */
 .visual {
-  margin-top: 120px;
+  margin-top: 95px;
   background-image: url("../images/visual_bg.jpg");
   background-position: center;
 }
@@ -256,7 +269,7 @@ header .badges .badge {
 .visual .title .btn {
   position: absolute;
   top: 259px;
-  right: 173px;
+  left: 173px;
 }
 .visual .cup1.image {
   position: absolute;
@@ -288,6 +301,7 @@ header .badges .badge {
 }
 
 /* NOTICE */
+/* NOTICE LINE */
 .notice .notice-line {
   position: relative;
 }
@@ -369,4 +383,34 @@ header .badges .badge {
 }
 .notice .notice-line .inner__right .toggle-promotion .material-icons {
   font-size: 30px;
+}
+
+/* PROMOTION */
+.notice .promotion {
+  height: 693px;
+  background-color: #f6f5ef;
+  position: relative;
+}
+.notice .promotion .swiper-container {
+  width: calc(819px * 3 + 20px);
+  height: 553px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: calc((819px * 3 + 20px) / -2);
+}
+.notice .promotion .swiper-slide {
+  opacity: 0.5;
+  transition: opacity 1s;
+  position: relative;
+}
+.notice .promotion .swiper-slide-active {
+  opacity: 1;
+}
+.notice .promotion .swiper-slide .btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
