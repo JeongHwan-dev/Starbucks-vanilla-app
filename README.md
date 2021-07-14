@@ -2,7 +2,7 @@
 
 <div align="center">
   <br />
-  <img src="./images/starbucks_title_logo.png" alt="Starbucks" height="200px" />
+  <img src="./images/starbucks_title_logo.png" alt="Starbucks" height="150px" />
   <br />
   <h1>:coffee: 스타벅스 웹 사이트 (Starbucks Website)</h1>
   <br />
