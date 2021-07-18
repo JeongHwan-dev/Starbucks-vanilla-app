@@ -1,0 +1,24 @@
+{
+  "name": "starbucks-vanilla-app",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <br />\r   <img src=\"./images/starbucks_title_logo.png\" alt=\"Starbucks\" height=\"150px\" />\r   <br />\r   <h1>스타벅스 웹 사이트 (Starbucks Website)</h1>\r   <a href=\"https://app.netlify.com/sites/hopeful-elion-05bcf5/deploys\">\r     <img src=\"https://api.netlify.com/api/v1/badges/fe78859b-ccbc-47e0-82aa-ce187bbe4c0b/deploy-status\" alt=\"netlify\" />\r   </a>\r   <br />\r </div>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeongHwan-dev/starbucks-vanilla-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeongHwan-dev/starbucks-vanilla-app/issues"
+  },
+  "homepage": "https://github.com/JeongHwan-dev/starbucks-vanilla-app#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
