@@ -68,13 +68,19 @@
 $ git clone https://github.com/JeongHwan-dev/starbucks-vanilla-app.git
 ```
 
-2. **필요한 node_modules 설치** (복제한 저장소 위치에서)
+2. **프로젝트 폴더로 이동**
+
+```bash
+$ cd starbucks-vanilla-app
+```
+
+3. **필요한 node_modules 설치**
 
 ```bash
 $ npm install
 ```
 
-3. **개발 서버 실행**
+4. **개발 서버 실행**
 
 ```bash
 $ npm run dev
