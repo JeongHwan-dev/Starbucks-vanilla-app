@@ -43,8 +43,8 @@
 
 **DevOps**
 
-- ![Netlify](https://img.shields.io/badge/-Netlify-00C7B7?&logo=netlify&logoColor=white)
 - ![Git](https://img.shields.io/badge/-Git-F05032?&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?&logo=github&logoColor=white)
+- ![Netlify](https://img.shields.io/badge/-Netlify-00C7B7?&logo=netlify&logoColor=white)
 
 <br />
 
